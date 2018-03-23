@@ -1,4 +1,4 @@
-<!doctype html>
+{{-- <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
@@ -92,4 +92,25 @@
             </div>
         </div>
     </body>
+</html> --}}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-saclable=no, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Auditcon</title>
+  <link rel="stylesheet" href="{{url('css/styles.css')}}">
+</head>
+<body>
+  <main class="soon-wrapper">
+    <div class="soon">
+      <img class="logo" src="{{url('logo.svg')}}">
+      <!-- <h1>En Construcción</h1> -->
+      <h1>Cuando sueñas, la construcción del mundo es una risa de albañiles</h1>
+      <p>(Leopoldo Marechal)</p>
+    </div>
+  </main>
+</body>
 </html>
